@@ -14,3 +14,8 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
+updates:
+  - package-ecosystem: "pip" # See documentation for possible values
+    directory: "/musicbrainzngs" # Location of package manifests
+    schedule:
+      interval: "daily"
